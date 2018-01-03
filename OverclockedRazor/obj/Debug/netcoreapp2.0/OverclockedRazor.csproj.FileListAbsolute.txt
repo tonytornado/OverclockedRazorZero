@@ -1,0 +1,11 @@
+C:\Users\TonyT\Desktop\OverclockedRazor\OverclockedRazor\bin\Debug\netcoreapp2.0\OverclockedRazor.deps.json
+C:\Users\TonyT\Desktop\OverclockedRazor\OverclockedRazor\bin\Debug\netcoreapp2.0\OverclockedRazor.runtimeconfig.json
+C:\Users\TonyT\Desktop\OverclockedRazor\OverclockedRazor\bin\Debug\netcoreapp2.0\OverclockedRazor.runtimeconfig.dev.json
+C:\Users\TonyT\Desktop\OverclockedRazor\OverclockedRazor\bin\Debug\netcoreapp2.0\OverclockedRazor.dll
+C:\Users\TonyT\Desktop\OverclockedRazor\OverclockedRazor\obj\Debug\netcoreapp2.0\OverclockedRazor.csprojResolveAssemblyReference.cache
+C:\Users\TonyT\Desktop\OverclockedRazor\OverclockedRazor\obj\Debug\netcoreapp2.0\OverclockedRazor.csproj.CoreCompileInputs.cache
+C:\Users\TonyT\Desktop\OverclockedRazor\OverclockedRazor\obj\Debug\netcoreapp2.0\OverclockedRazor.AssemblyInfoInputs.cache
+C:\Users\TonyT\Desktop\OverclockedRazor\OverclockedRazor\obj\Debug\netcoreapp2.0\OverclockedRazor.AssemblyInfo.cs
+C:\Users\TonyT\Desktop\OverclockedRazor\OverclockedRazor\bin\Debug\netcoreapp2.0\OverclockedRazor.pdb
+C:\Users\TonyT\Desktop\OverclockedRazor\OverclockedRazor\obj\Debug\netcoreapp2.0\OverclockedRazor.dll
+C:\Users\TonyT\Desktop\OverclockedRazor\OverclockedRazor\obj\Debug\netcoreapp2.0\OverclockedRazor.pdb

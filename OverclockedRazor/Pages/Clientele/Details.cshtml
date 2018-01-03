@@ -1,0 +1,115 @@
+﻿@page
+@model OverclockedRazor.Pages.Clientele.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Client</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.FirstName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.FirstName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.LastName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.LastName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.DOB)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.DOB)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.BSex)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.BSex)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.height)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.height)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.weight)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.weight)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.chest)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.chest)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.waist)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.waist)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.hip)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.hip)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.neck)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.neck)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.forearm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.forearm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.tricep)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.tricep)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.bicep)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.bicep)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.thigh)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.thigh)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Client.calf)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Client.calf)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Client.ID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

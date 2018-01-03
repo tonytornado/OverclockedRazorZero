@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverclockedRazor", "OverclockedRazor\OverclockedRazor.csproj", "{29C06550-5344-4EBB-A38F-180FD01E1DA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29C06550-5344-4EBB-A38F-180FD01E1DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C06550-5344-4EBB-A38F-180FD01E1DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C06550-5344-4EBB-A38F-180FD01E1DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C06550-5344-4EBB-A38F-180FD01E1DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F59CD269-18F5-4661-9A16-79457DA3D30C}
+	EndGlobalSection
+EndGlobal
