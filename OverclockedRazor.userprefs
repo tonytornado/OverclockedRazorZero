@@ -2,8 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="OverclockedRazor/Pages/Candidate.cshtml">
     <Files>
       <File FileName="OverclockedRazor/wwwroot/lib/bootstrap/.bower.json" Line="32" Column="21" />
-      <File FileName="OverclockedRazor/Pages/_Layout.cshtml" Line="36" Column="70" />
-      <File FileName="OverclockedRazor/Pages/Candidate.cshtml" Line="112" Column="2" />
+      <File FileName="OverclockedRazor/Pages/Candidate.cshtml" Line="23" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

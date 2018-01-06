@@ -12,7 +12,7 @@ namespace OverclockedRazor.Pages
 
         public void OnGet()
         {
-            Message = "Your application description page.";
+            Message = "How it started from the garage.";
         }
     }
 }
