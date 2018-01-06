@@ -44,11 +44,11 @@ namespace OverclockedRazor.Pages.Clientele
                 return NotFound();
             }
 
-            Client = await _context.Client.FindAsync(id);
+            Client = await _context.Clients.FindAsync(id);
 
             if (Client != null)
             {
-                _context.Client.Remove(Client);
+                _context.Clients.Remove(Client);
                 await _context.SaveChangesAsync();
             }
 

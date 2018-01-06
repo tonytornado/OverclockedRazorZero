@@ -20,19 +20,19 @@ namespace OverclockedRazor.Data
         [Required]
         public string BSex { get; set; }
         [Required]
-        public string height { get; set; }
+        public string Height { get; set; }
         [Required]
-        public string weight { get; set; }
+        public string Weight { get; set; }
 
-        public int chest { get; set; }
-        public int waist { get; set; }
-        public int hip { get; set; }
-        public int neck { get; set; }
-        public int forearm { get; set; }
-        public int tricep { get; set; }
-        public int bicep { get; set; }
-        public int thigh { get; set; }
-        public int calf { get; set; }
+        public int Chest { get; set; }
+        public int Waist { get; set; }
+        public int Hip { get; set; }
+        public int Neck { get; set; }
+        public int Forearm { get; set; }
+        public int Tricep { get; set; }
+        public int Bicep { get; set; }
+        public int Thigh { get; set; }
+        public int Calf { get; set; }
 
 
     }

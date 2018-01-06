@@ -1,11 +1,11 @@
 ﻿@page
-@model OverclockedRazor.Pages.Clientele.EditModel
+@model OverclockedRazor.Pages.CandidateModel
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Candidate";
 }
 
-<h2>Edit</h2>
+<h2>Candidate</h2>
 
 <h4>Client</h4>
 <hr />
@@ -13,7 +13,6 @@
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Client.ID" />
             <div class="form-group">
                 <label asp-for="Client.FirstName" class="control-label"></label>
                 <input asp-for="Client.FirstName" class="form-control" />
@@ -36,7 +35,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Client.BSex" class="control-label"></label>
-                <input asp-for="Client.BSex" class="form-control" />
+                <input type="radio" asp-for="Client.BSex" class="form-control" />
                 <span asp-validation-for="Client.BSex" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -95,14 +94,14 @@
                 <span asp-validation-for="Client.Calf" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-default" />
+                <input type="submit" value="Create" class="btn btn-default" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-page="./Index">Back to List</a>
+    <a asp-page="Index">Back to List</a>
 </div>
 
 @section Scripts {
