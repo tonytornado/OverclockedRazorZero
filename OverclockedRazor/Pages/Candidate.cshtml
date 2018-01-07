@@ -9,89 +9,92 @@
 
     <form method="post">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label asp-for="Client.FirstName" class="control-label"></label>
-                    <input asp-for="Client.FirstName" class="form-control" />
-                    <span asp-validation-for="Client.FirstName" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Client.LastName" class="control-label"></label>
-                    <input asp-for="Client.LastName" class="form-control" />
-                    <span asp-validation-for="Client.LastName" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Client.Email" class="control-label"></label>
-                    <input asp-for="Client.Email" class="form-control" />
-                    <span asp-validation-for="Client.Email" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Client.DOB" class="control-label"></label>
-                    <input asp-for="Client.DOB" class="form-control" />
-                    <span asp-validation-for="Client.DOB" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Client.BSex" class="control-label"></label>
-                    <input asp-for="Client.BSex" class="form-control" />
-                    <span asp-validation-for="Client.BSex" class="text-danger"></span>
-                </div>
+
+        <div class="col">
+            <div class="form-group">
+                <label asp-for="Client.FirstName" class="control-label"></label>
+                <input asp-for="Client.FirstName" class="form-control" />
+                <span asp-validation-for="Client.FirstName" class="text-danger"></span>
             </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label asp-for="Client.Height" class="control-label"></label>
-                    <input asp-for="Client.Height" class="form-control" />
-                    <span asp-validation-for="Client.Height" class="text-danger"></span>
+            <div class="form-group">
+                <label asp-for="Client.LastName" class="control-label"></label>
+                <input asp-for="Client.LastName" class="form-control" />
+                <span asp-validation-for="Client.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Client.Email" class="control-label"></label>
+                <input asp-for="Client.Email" class="form-control" />
+                <span asp-validation-for="Client.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Client.DOB" class="control-label"></label>
+                <input asp-for="Client.DOB" class="form-control" />
+                <span asp-validation-for="Client.DOB" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Client.BSex" class="control-label"></label>
+                <p><select asp-for="Client.BSex" asp-items="Html.GetEnumSelectList<OverclockedRazor.Data.Client.Sex>()"></select></p>
+                <span asp-validation-for="Client.BSex" class="text-danger"></span>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md">
+                    <div class="form-group">
+                        <label asp-for="Client.Height" class="control-label"></label>
+                        <input asp-for="Client.Height" class="form-control" />
+                        <span asp-validation-for="Client.Height" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Client.Weight" class="control-label"></label>
+                        <input asp-for="Client.Weight" class="form-control" />
+                        <span asp-validation-for="Client.Weight" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Client.Chest" class="control-label"></label>
+                        <input asp-for="Client.Chest" class="form-control" />
+                        <span asp-validation-for="Client.Chest" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Client.Waist" class="control-label"></label>
+                        <input asp-for="Client.Waist" class="form-control" />
+                        <span asp-validation-for="Client.Waist" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Client.Hip" class="control-label"></label>
+                        <input asp-for="Client.Hip" class="form-control" />
+                        <span asp-validation-for="Client.Hip" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Client.Neck" class="control-label"></label>
+                        <input asp-for="Client.Neck" class="form-control" />
+                        <span asp-validation-for="Client.Neck" class="text-danger"></span>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label asp-for="Client.Weight" class="control-label"></label>
-                    <input asp-for="Client.Weight" class="form-control" />
-                    <span asp-validation-for="Client.Weight" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Client.Chest" class="control-label"></label>
-                    <input asp-for="Client.Chest" class="form-control" />
-                    <span asp-validation-for="Client.Chest" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Client.Waist" class="control-label"></label>
-                    <input asp-for="Client.Waist" class="form-control" />
-                    <span asp-validation-for="Client.Waist" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Client.Hip" class="control-label"></label>
-                    <input asp-for="Client.Hip" class="form-control" />
-                    <span asp-validation-for="Client.Hip" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Client.Neck" class="control-label"></label>
-                    <input asp-for="Client.Neck" class="form-control" />
-                    <span asp-validation-for="Client.Neck" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Client.Forearm" class="control-label"></label>
-                    <input asp-for="Client.Forearm" class="form-control" />
-                    <span asp-validation-for="Client.Forearm" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Client.Tricep" class="control-label"></label>
-                    <input asp-for="Client.Tricep" class="form-control" />
-                    <span asp-validation-for="Client.Tricep" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Client.Bicep" class="control-label"></label>
-                    <input asp-for="Client.Bicep" class="form-control" />
-                    <span asp-validation-for="Client.Bicep" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Client.Thigh" class="control-label"></label>
-                    <input asp-for="Client.Thigh" class="form-control" />
-                    <span asp-validation-for="Client.Thigh" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Client.Calf" class="control-label"></label>
-                    <input asp-for="Client.Calf" class="form-control" />
-                    <span asp-validation-for="Client.Calf" class="text-danger"></span>
+                <div class="col-lg-6 col-md">
+                    <div class="form-group">
+                        <label asp-for="Client.Forearm" class="control-label"></label>
+                        <input asp-for="Client.Forearm" class="form-control" />
+                        <span asp-validation-for="Client.Forearm" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Client.Tricep" class="control-label"></label>
+                        <input asp-for="Client.Tricep" class="form-control" />
+                        <span asp-validation-for="Client.Tricep" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Client.Bicep" class="control-label"></label>
+                        <input asp-for="Client.Bicep" class="form-control" />
+                        <span asp-validation-for="Client.Bicep" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Client.Thigh" class="control-label"></label>
+                        <input asp-for="Client.Thigh" class="form-control" />
+                        <span asp-validation-for="Client.Thigh" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Client.Calf" class="control-label"></label>
+                        <input asp-for="Client.Calf" class="form-control" />
+                        <span asp-validation-for="Client.Calf" class="text-danger"></span>
+                    </div>
                 </div>
             </div>
         </div>

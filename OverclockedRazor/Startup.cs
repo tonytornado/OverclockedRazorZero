@@ -23,8 +23,11 @@ namespace OverclockedRazor
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+#pragma warning disable CS0618 // Type or member is obsolete
             services.AddDbContext<Context>(options => options.UseInMemoryDatabase());
-            /*options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")))*/;
+#pragma warning restore CS0618 // Type or member is obsolete
+                              /*options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")))*/
+            ;
             services.AddMvc();
         }
 
