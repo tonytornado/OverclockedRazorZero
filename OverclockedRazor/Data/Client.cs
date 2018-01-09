@@ -33,23 +33,32 @@ namespace OverclockedRazor.Data
         [Display(Name = "Date of Birth")]
         public DateTime DOB { get; set; }
         [Required]
-        [Display(Name = "Biological Sex")]
+        [Display(Name = "Biological Sex Assignment")]
         public Sex BSex { get; set; }
         [Required]
-        [Display(Name = "Height")]
+        [Display(Name = "Height (in in.)")]
         public string Height { get; set; }
         [Required]
         [Display(Name = "Weight (in lbs.)")]
         public string Weight { get; set; }
 
+        [Display(Name = "Chest (in in.)")]
         public int Chest { get; set; }
+        [Display(Name = "Waist (in in.)")]
         public int Waist { get; set; }
+        [Display(Name = "Hip (in in.)")]
         public int Hip { get; set; }
+        [Display(Name = "Neck (in in.)")]
         public int Neck { get; set; }
+        [Display(Name = "Forearm (in in.)")]
         public int Forearm { get; set; }
+        [Display(Name = "Tricep (in in.)")]
         public int Tricep { get; set; }
+        [Display(Name = "Bicep (in in.)")]
         public int Bicep { get; set; }
+        [Display(Name = "Thigh (in in.)")]
         public int Thigh { get; set; }
+        [Display(Name = "Calf (in in.)")]
         public int Calf { get; set; }
     }
 }

@@ -5,18 +5,28 @@
 }
 
 <main class="container">
-<h2 class="display-4 py-4">@ViewData["Title"]</h2>
+<h2 class="display-4 pt-4">@ViewData["Title"]</h2>
 <h3>@Model.Message</h3>
 
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
+    We are located in Louisville, Kentucky.
 </address>
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+    function myMap() {
+        var mapProp= {
+            center:new google.maps.LatLng(38.200946, -85.601353),
+            zoom:10,
+        };
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzqB6cnnw2nH2aVSUP_CHNBgYQsasySmY&callback=myMap"></script>
 
 <address>
-    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    <strong>Support:</strong> <a href="mailto:Admin@PhantomHex.com">Click here</a> | 
+    <strong>Marketing:</strong> <a href="mailto:Admin@PhantomHex.com">Click here</a>
 </address>
 </main>

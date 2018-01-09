@@ -12,7 +12,7 @@ namespace OverclockedRazor.Pages
 
         public void OnGet()
         {
-            Message = "Your contact page.";
+            Message = "If you can find us, you can reach us.";
         }
     }
 }

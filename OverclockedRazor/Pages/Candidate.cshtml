@@ -5,7 +5,8 @@
     ViewData["Title"] = "Candidate";
 }
 <main class="container">
-    <h2 class="display-4 py-4">Candidate Application</h2>
+    <h2 class="display-4 pt-4">Candidate Application</h2>
+    <p class="lead">Use this form to fill in any and all details you may know about yourself right now.</p> 
 
     <form method="post">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -99,13 +100,9 @@
             </div>
         </div>
         <div class="form-group text-center">
-            <input type="submit" value="Create" class="btn btn-default" />
+            <input  alt="Submit Application" type="submit" value="Submit Application" class="btn btn-default">
         </div>
     </form>
-
-    <div>
-        <a asp-page="Index">Back to List</a>
-    </div>
 </main>
 
 @section Scripts {
