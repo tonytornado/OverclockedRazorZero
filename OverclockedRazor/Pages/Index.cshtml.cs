@@ -19,18 +19,20 @@ namespace OverclockedRazor.Pages
         {
             _db = db;
         }
+        
+        public IList<Newsletter> Newsletters { get; private set; }
 
-        public IList<Client> Clients { get; private set; }
-        public IList<Client> Newsletter { get; private set; }
+        [BindProperty]
+        public Newsletter Newsletter { get; set; }
 
         public async Task OnGetAsync(int ID)
         {
-            Clients = await _db.Clients.AsNoTracking().ToListAsync();
+            Newsletters = await _db.Newsletters.AsNoTracking().ToListAsync();
         }
 
         public async Task OnPostAsync(int ID)
         {
-            Clients = await _db.Clients.AsNoTracking().ToListAsync();
+            Newsletters = await _db.Newsletters.AsNoTracking().ToListAsync();
             Message = "We've got you subscribed. You'll be hearing from us soon.";
         }
 
