@@ -6,6 +6,10 @@ body {
     font-family: 'Roboto Condensed','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+nav {
+    background-color: #010029;
+}
+
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
@@ -14,14 +18,32 @@ body {
 }
 
 .parallax {
-    /* The image used */
     background-image: url("../img/Fitness.jpg");
-    /* Set a specific height */
     height: 300px;
     align-content: center;
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 30% 0px;
+}
+
+.parallax-title {
+    background-image: url("../img/Fitness2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    align-content: center;
+    padding: 35% 0px;
+    font-family: 'Russo One','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax .parallax-title {
+        background-attachment: scroll;
+    }
 }

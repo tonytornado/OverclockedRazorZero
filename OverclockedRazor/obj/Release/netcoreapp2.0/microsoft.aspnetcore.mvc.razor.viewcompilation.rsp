@@ -1,0 +1,17 @@
+C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=OverclockedRazor
+--content-root=C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor
+--file=C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\Pages\About.cshtml
+--file=C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\Pages\Candidate.cshtml
+--file=C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\Pages\Clientele\Create.cshtml
+--file=C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\Pages\Clientele\Delete.cshtml
+--file=C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\Pages\Clientele\Details.cshtml
+--file=C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\Pages\Clientele\Edit.cshtml
+--file=C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\Pages\Clientele\Index.cshtml
+--file=C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\Pages\Contact.cshtml
+--file=C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\Pages\Index.cshtml
+--file=C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\Pages\_Layout.cshtml
+--file=C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\Pages\_ValidationScriptsPartial.cshtml
+--file=C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\Pages\_ViewImports.cshtml
+--file=C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\Pages\_ViewStart.cshtml

@@ -31,6 +31,7 @@ namespace OverclockedRazor.Data
         public string Email { get; set; }
         [Required]
         [Display(Name = "Date of Birth")]
+        [DataType(DataType.Date)]
         public DateTime DOB { get; set; }
         [Required]
         [Display(Name = "Biological Sex Assignment")]
