@@ -1,0 +1,13 @@
+{
+  "User": {
+    "Id": 966089,
+    "Username": "tonythigpen",
+    "Name": "Tony Thigpen",
+    "Email": "tonythigpen@outlook.com",
+    "AvatarUrl": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/966089/avatar.png",
+    "PrivateToken": "874683fd5b8f7254ffb2b2087c32a45d60bc08bf9c664a909f96b90b567cd55c",
+    "Host": "https://gitlab.com",
+    "TwoFactorEnabled": false,
+    "ApiVersion": 3
+  }
+}

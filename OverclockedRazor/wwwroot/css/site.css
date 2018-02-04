@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Russo+One&effect=outline|3d');
 
 body {
     /*padding-top: 50px;
@@ -29,15 +29,14 @@ nav {
 }
 
 .parallax-title {
-    background-image: url("../img/Fitness2.jpg");
+    background-image: url("../img/fitness2.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
     text-align: center;
     align-content: center;
-    padding: 35% 0px;
+    padding: 25% 0px;
     font-family: 'Russo One','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3rem;
 }

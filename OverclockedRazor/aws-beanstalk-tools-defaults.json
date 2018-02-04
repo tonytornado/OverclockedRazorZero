@@ -4,7 +4,7 @@
     "profile" : "default",
     "region"  : "us-east-1",
     "application" : "PhantomHexSite",
-    "environment" : "PhantomHexSite-dev",
+    "environment" : "PhantomHexSite-test",
     "iis-website" : "Default Web Site",
     "app-path"    : "/"
 }
