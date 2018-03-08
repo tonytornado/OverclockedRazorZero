@@ -10,6 +10,9 @@ nav {
     background-color: #010029;
 }
 
+#CandidateForm {
+}
+
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
@@ -41,7 +44,7 @@ nav {
     font-size: 3rem;
 }
 
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 1024px) {
     .parallax .parallax-title {
         background-attachment: scroll;
     }
