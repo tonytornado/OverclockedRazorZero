@@ -1,4 +1,4 @@
-# OverclockedRazorZero
+# Overclocked Razor [Zero Version]
 ASP.NET Core 2.0 version of the overclocked Fitness project.
 
 # What makes this different from the PHP version?
