@@ -33,11 +33,6 @@ function revealOnScroll() {
     });
 }
 
-// PARALLAX HEIGHT //
-$(document).ready(function () {
-    $('.parallax-title').css("height",window.innerHeight);
-});
-
 
 var o = {
     "point": {
