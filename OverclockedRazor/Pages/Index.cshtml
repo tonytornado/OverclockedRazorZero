@@ -47,17 +47,19 @@
         </p>
     </div>
 </section>
-<section id="signup" class="container text-center px-5 col-sm-8 col-xl-6 jumbotron bg-secondary">
-    <h2>Sign up for our newsletter!</h2>
-    <form method="post" class="form">
-        <div class="form-group small">
-            <p>Like what we have to say?  Enjoy inane ramblings from a madman?  Want your computer fixed while you sweat?  Sign up now!</p>
-            <input asp-for="Newsletter.Name" class="form-control-sm form-control" type="text" placeholder="Name" />
-            <span asp-validation-for="Newsletter.Name" class="text-danger"></span><br />
-            <input asp-for="Newsletter.Email" class="form-control-sm form-control" type="email" placeholder="E-Mail Address" />
-            <span asp-validation-for="Newsletter.Email" class="text-danger"></span><br />
-            <br />
-            <button type="submit" name="Register" class="btn btn-primary btn-rounded">Newsletter Go!</button>
-        </div>
-    </form>
+<section id="signup" class="text-center jumbotron px-5 col-10 col-sm-6 mx-auto bg-secondary">
+    <fieldset>
+        <legend><h2>Sign up for our newsletter!</h2></legend>
+        <form method="post" class="form">
+            <div class="form-group small">
+                <p>Like what we have to say?  Enjoy inane ramblings from a madman?  Want your computer fixed while you sweat?  Sign up now!</p>
+                <input asp-for="Newsletter.Name" class="form-control" type="text" placeholder="Name" />
+                <span asp-validation-for="Newsletter.Name" class="text-danger"></span><br />
+                <input asp-for="Newsletter.Email" class="form-control" type="email" placeholder="E-Mail Address" />
+                <span asp-validation-for="Newsletter.Email" class="text-danger"></span><br />
+                <br />
+                <button type="submit" name="Register" class="btn btn-primary btn-rounded">Newsletter Go!</button>
+            </div>
+        </form>
+    </fieldset>
 </section>

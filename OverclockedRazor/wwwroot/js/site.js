@@ -35,7 +35,8 @@ function revealOnScroll() {
 
 // PARALLAX HEIGHT //
 $(document).ready(function () {
-    $('.parallax-title').css("height",window.innerHeight);
+    $('.parallax-title')
+        .css("height", window.innerHeight);
 });
 
 

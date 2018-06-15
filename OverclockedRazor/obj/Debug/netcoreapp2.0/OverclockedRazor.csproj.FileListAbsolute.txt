@@ -25,9 +25,9 @@ C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\bin\Debug\
 C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\bin\Debug\netcoreapp2.0\OverclockedRazor.runtimeconfig.dev.json
 C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\bin\Debug\netcoreapp2.0\OverclockedRazor.dll
 C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\bin\Debug\netcoreapp2.0\OverclockedRazor.pdb
-C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\obj\Debug\netcoreapp2.0\OverclockedRazor.csprojResolveAssemblyReference.cache
 C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\obj\Debug\netcoreapp2.0\OverclockedRazor.csproj.CoreCompileInputs.cache
 C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\obj\Debug\netcoreapp2.0\OverclockedRazor.AssemblyInfoInputs.cache
 C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\obj\Debug\netcoreapp2.0\OverclockedRazor.AssemblyInfo.cs
 C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\obj\Debug\netcoreapp2.0\OverclockedRazor.dll
 C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\obj\Debug\netcoreapp2.0\OverclockedRazor.pdb
+C:\Users\TonyT\Documents\GitHub\OverclockedRazorZero\OverclockedRazor\obj\Debug\netcoreapp2.0\OverclockedRazor.csprojAssemblyReference.cache

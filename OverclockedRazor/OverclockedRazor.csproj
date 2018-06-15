@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <DotNetCliToolReference Include="Amazon.ElasticBeanstalk.Tools" Version="1.0.1" />
+    <DotNetCliToolReference Include="Amazon.ElasticBeanstalk.Tools" Version="1.1.0" />
   </ItemGroup>
 </Project>
 

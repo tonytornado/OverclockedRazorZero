@@ -3,6 +3,8 @@
 body {
     /*padding-top: 50px;
     padding-bottom: 20px;*/
+    background-color: #08024e;
+    color: snow;
     font-family: 'Roboto Condensed','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -11,24 +13,25 @@ nav {
 }
 
 #CandidateForm {
+    font-variant-caps:all-petite-caps;
 }
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
-.body-content {
+/*.body-content {
     padding-top: 15px;
     padding-bottom: 15px;
-}
+}*/
 
 .parallax {
     background-image: url("../img/Fitness.jpg");
-    height: 300px;
+    height: 230px;
     align-content: center;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 30% 0px;
+    padding: 20% 0px;
 }
 
 .parallax-title {
