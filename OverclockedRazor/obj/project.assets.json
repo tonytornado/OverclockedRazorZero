@@ -13151,17 +13151,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tonyt/Sites/OverclockedRazorZero/OverclockedRazor/OverclockedRazor.csproj",
+      "projectUniqueName": "/Users/tonyt/Projects/tonytornado/OverclockedRazorZero.git/OverclockedRazor/OverclockedRazor.csproj",
       "projectName": "OverclockedRazor",
-      "projectPath": "/Users/tonyt/Sites/OverclockedRazorZero/OverclockedRazor/OverclockedRazor.csproj",
+      "projectPath": "/Users/tonyt/Projects/tonytornado/OverclockedRazorZero.git/OverclockedRazor/OverclockedRazor.csproj",
       "packagesPath": "/Users/tonyt/.nuget/packages/",
-      "outputPath": "/Users/tonyt/Sites/OverclockedRazorZero/OverclockedRazor/obj/",
+      "outputPath": "/Users/tonyt/Projects/tonytornado/OverclockedRazorZero.git/OverclockedRazor/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/tonyt/.nuget/NuGet/NuGet.Config"
+        "/Users/tonyt/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -13183,22 +13183,23 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "FontAwesome": {
+          "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[4.7.0, )"
+            "version": "2.0",
+            "autoReferenced": true
           },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "[2.0.5, )"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "[2.0.0, )",
-            "autoReferenced": true
+            "version": "2.0.5"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
-            "version": "[2.0.2, )"
+            "version": "2.0.2"
+          },
+          "FontAwesome": {
+            "target": "Package",
+            "version": "4.7.0"
           }
         },
         "imports": [

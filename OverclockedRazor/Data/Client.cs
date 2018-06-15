@@ -14,7 +14,7 @@ namespace OverclockedRazor.Data
             Male,
             [Display(Name = "Female")]
             Female,
-            [Display(Name = "Other")]
+            [Display(Name = "Self-Identify")]
             Other
         }
 
@@ -37,29 +37,29 @@ namespace OverclockedRazor.Data
         [Display(Name = "Biological Sex Assignment")]
         public Sex BSex { get; set; }
         [Required]
-        [Display(Name = "Height (in in.)")]
+        [Display(Name = "Height")]
         public string Height { get; set; }
         [Required]
         [Display(Name = "Weight (in lbs.)")]
         public string Weight { get; set; }
 
-        [Display(Name = "Chest (in in.)")]
+        [Display(Name = "Chest")]
         public int Chest { get; set; }
-        [Display(Name = "Waist (in in.)")]
+        [Display(Name = "Waist")]
         public int Waist { get; set; }
-        [Display(Name = "Hip (in in.)")]
+        [Display(Name = "Hip")]
         public int Hip { get; set; }
-        [Display(Name = "Neck (in in.)")]
+        [Display(Name = "Neck")]
         public int Neck { get; set; }
-        [Display(Name = "Forearm (in in.)")]
+        [Display(Name = "Forearm")]
         public int Forearm { get; set; }
-        [Display(Name = "Tricep (in in.)")]
+        [Display(Name = "Tricep")]
         public int Tricep { get; set; }
-        [Display(Name = "Bicep (in in.)")]
+        [Display(Name = "Bicep")]
         public int Bicep { get; set; }
-        [Display(Name = "Thigh (in in.)")]
+        [Display(Name = "Thigh")]
         public int Thigh { get; set; }
-        [Display(Name = "Calf (in in.)")]
+        [Display(Name = "Calf")]
         public int Calf { get; set; }
     }
 }
