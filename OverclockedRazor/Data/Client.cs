@@ -40,39 +40,36 @@ namespace OverclockedRazor.Data
         [Display(Name = "Biological Sex Assignment")]
         public Sex BSex { get; set; }
         [Required]
-        [StringLength(3)]
         [Display(Name = "Height")]
         public string Height { get; set; }
         [Required]
-        [StringLength(3)]
         [Display(Name = "Weight")]
         public string Weight { get; set; }
 
-        [StringLength(2)]
         [Display(Name = "Chest")]
         public int Chest { get; set; }
-        [StringLength(2)]
+        
         [Display(Name = "Waist")]
         public int Waist { get; set; }
-        [StringLength(2)]
+        
         [Display(Name = "Hip")]
         public int Hip { get; set; }
-        [StringLength(2)]
+        
         [Display(Name = "Neck")]
         public int Neck { get; set; }
-        [StringLength(2)]
+        
         [Display(Name = "Forearm")]
         public int Forearm { get; set; }
-        [StringLength(2)]
+        
         [Display(Name = "Tricep")]
         public int Tricep { get; set; }
-        [StringLength(2)]
+        
         [Display(Name = "Bicep")]
         public int Bicep { get; set; }
-        [StringLength(2)]
+        
         [Display(Name = "Thigh")]
         public int Thigh { get; set; }
-        [StringLength(2)]
+        
         [Display(Name = "Calf")]
         public int Calf { get; set; }
     }
